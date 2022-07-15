@@ -4,8 +4,9 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 
-.idea/
-.vscode/
-.vs/
+.idea/*
+.vscode/*
+.vs/*
+.idea/*
 
 .DS_Store
