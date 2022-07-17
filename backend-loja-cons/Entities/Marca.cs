@@ -1,11 +1,12 @@
+// ReSharper disable All
 namespace backend_loja_cons.Entities;
 
 public class Marca: EntitiyBase
 {
-    public string Nombre { get; set; } = string.Empty;
-    public string NombreCorto { get; set; } = string.Empty;
-    public string Descripcion { get; set; } = string.Empty;
-    public string ImagenUrl { get; set; } = string.Empty;
-    public string Icono { get; set; } = string.Empty;
-    public List<Producto>Productos { get; set; } = new ();
+    public string m_nombre { get; set; } = string.Empty;
+    public string m_nombre_corto { get; set; } = string.Empty;
+    public string m_descripcion { get; set; } = string.Empty;
+    public string m_imagen_url { get; set; } = string.Empty;
+    public string m_icono { get; set; } = string.Empty;
+    public List<Producto>m_productos { get; set; } = new ();
 }
